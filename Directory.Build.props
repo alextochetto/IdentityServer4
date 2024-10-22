@@ -9,7 +9,7 @@
         <Title>$(MSBuildProjectName)</Title>
         <ImplicitUsings>enable</ImplicitUsings>
 
-        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <!-- <PackageLicenseFile>LICENSE</PackageLicenseFile> -->
 
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <NoWarn>$(NoWarn);CS0618;SYSLIB0023;SYSLIB0020;EF1001</NoWarn>
@@ -37,7 +37,7 @@
         <!-- Include PDB in the built .nupkg -->
         <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
 
-        <PackageIcon>icon.jpg</PackageIcon>
+        <!-- <PackageIcon>icon.jpg</PackageIcon> -->
 
 
         <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
@@ -58,7 +58,7 @@
 
         <IsPackable>false</IsPackable>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <!-- <PackageReadmeFile>README.md</PackageReadmeFile> -->
         <DebugSymbols>true</DebugSymbols>
         <DebugType>portable</DebugType>
         <IncludeSymbols>true</IncludeSymbols>
