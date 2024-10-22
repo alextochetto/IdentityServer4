@@ -10,10 +10,12 @@
  copies or substantial portions of the Software.
 */
 
-namespace IdentityServer4;
-
-internal static class Constants
-{
-    public const string IdentityServerName               = "IdentityServer8";
-    public const string IdentityServerAuthenticationType = IdentityServerName;
-}
+global using IdentityModel;
+global using IdentityServer4.Extensions;
+global using IdentityServer4.Models;
+global using IdentityServer4.Stores;
+global using Newtonsoft.Json;
+global using Newtonsoft.Json.Serialization;
+global using System.Collections;
+global using System.Diagnostics;
+global using System.Security.Claims;
